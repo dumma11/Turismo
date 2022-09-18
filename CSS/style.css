@@ -1,0 +1,98 @@
+/*RESETEO*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*FIN RESETEO*/
+body{
+    background-color:rgb(255, 255, 255);
+}
+.contenedor{
+    width: 90%;
+    border: solid rgb(255, 255, 255) 3px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2px auto;
+}
+/*Header de Bootstrap*/
+
+.miBarra{
+    background-color: rgb(99, 34, 34);
+}
+
+/*INICIO de Menú*/
+
+/*FIN de Menú*/
+
+/*INICIO de destinos DE INDEX*/
+main{
+    display: flex;
+    justify-content: center;
+}
+.c1{
+    margin: 20px 30px 20px 10px;
+    background-color: aliceblue;
+    transition: all 0.2s ease;
+}
+.c1:hover{
+    transform: scale(1.07, 1.07);
+    background-color: rgb(220, 239, 255)
+}
+.c2{
+    margin: 20px 30px 20px 10px;
+    background-color: aliceblue;
+    transition: all 0.2s ease;
+}
+.c2:hover{
+    transform: scale(1.07, 1.07);
+    background-color: rgb(220, 239, 255)
+}
+.c3{
+    margin: 20px 30px 20px 10px;
+    background-color: aliceblue;
+    transition: all 0.2s ease;
+}
+.c3:hover{
+    transform: scale(1.07, 1.07);
+    background-color: rgb(220, 239, 255)
+}
+/*FIN de destinos DE INDEX*/
+
+/*CONTACTO*/
+.formulario{
+    padding: 120px 0px 250px 0px;
+}
+/*FIN DE CONTACTO*/
+
+/*DESTINOS*/
+.tabla{
+    padding: 120px 0px 250px 0px;
+}
+/*FIN DE DESTINOS*/
+
+/*INICIO estilo de footer*/
+footer{
+    background-color: rgb(114, 114, 114);
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;    
+}
+.logoFace{
+    width: 4rem;
+}
+.logoInsta{
+    width: 4rem;
+}
+.logoWhat{
+    width: 4rem;
+}
+.logoInf{
+    height: 10rem;
+}
+/*FIN estilo de footer*/
